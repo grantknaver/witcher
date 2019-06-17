@@ -1,0 +1,16 @@
+
+// :host because angular always creates a wrapper for its' commponents
+:host {
+    height: 100%;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+main {
+    flex-grow: 1;
+}
